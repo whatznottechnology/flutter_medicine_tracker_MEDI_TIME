@@ -323,7 +323,7 @@ abstract class AppLocalizations {
   /// No description provided for @medicines.
   ///
   /// In en, this message translates to:
-  /// **'Medicines'**
+  /// **'medicines'**
   String get medicines;
 
   /// No description provided for @water.
@@ -1513,6 +1513,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Goal achieved!'**
   String get goalAchieved;
+
+  /// No description provided for @nextDosesDue.
+  ///
+  /// In en, this message translates to:
+  /// **'Next doses due'**
+  String get nextDosesDue;
+
+  /// No description provided for @allCaughtUp.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'re all caught up!'**
+  String get allCaughtUp;
+
+  /// No description provided for @medicine.
+  ///
+  /// In en, this message translates to:
+  /// **'medicine'**
+  String get medicine;
+
+  /// No description provided for @medicineSkipped.
+  ///
+  /// In en, this message translates to:
+  /// **'Medicine skipped'**
+  String get medicineSkipped;
 }
 
 class _AppLocalizationsDelegate

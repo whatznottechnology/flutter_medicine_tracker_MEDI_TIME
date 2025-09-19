@@ -284,5 +284,11 @@
   
   "ofTarget": "এর মধ্যে",
   "percentOfDailyGoal": "% দিনের টার্গেটের",
-  "goalAchieved": "টার্গেট পূরণ!"
+  "goalAchieved": "টার্গেট পূরণ!",
+  "nextDosesDue": "পরবর্তী ডোজ",
+  "allCaughtUp": "সব ঠিক আছে!",
+  "medicine": "ওষুধ",
+  "medicines": "ওষুধসমূহ",
+  "medicineSkipped": "ওষুধ ছাড়া হয়েছে",
+  "medicineMarkedTaken": "ওষুধ খাওয়া হয়েছে বলে চিহ্নিত"
 }

@@ -127,7 +127,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get dashboard => 'Dashboard';
 
   @override
-  String get medicines => 'Medicines';
+  String get medicines => 'medicines';
 
   @override
   String get water => 'Water';
@@ -725,4 +725,16 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get goalAchieved => 'Goal achieved!';
+
+  @override
+  String get nextDosesDue => 'Next doses due';
+
+  @override
+  String get allCaughtUp => 'You\'re all caught up!';
+
+  @override
+  String get medicine => 'medicine';
+
+  @override
+  String get medicineSkipped => 'Medicine skipped';
 }

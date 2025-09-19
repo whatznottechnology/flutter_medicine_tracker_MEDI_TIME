@@ -433,7 +433,7 @@ class MedicinesScreen extends StatelessWidget {
                   ),
                 ),
               ],
-            ],
+            ),
           ),
         ),
       ),

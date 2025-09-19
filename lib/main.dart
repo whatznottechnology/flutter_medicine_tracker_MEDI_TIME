@@ -4,7 +4,6 @@ import 'package:provider/provider.dart';
 import 'l10n/app_localizations.dart';
 import 'services/database_service.dart';
 import 'services/notification_service.dart';
-import 'services/seed_data_service.dart';
 import 'providers/medicine_provider.dart';
 import 'providers/water_provider.dart';
 import 'providers/settings_provider.dart';

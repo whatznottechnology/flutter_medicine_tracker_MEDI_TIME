@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'dart:async';
-import '../providers/medicine_provider.dart';
 import '../providers/settings_provider.dart';
 import 'package:provider/provider.dart';
 
@@ -104,25 +102,30 @@ class _SplashScreenState extends State<SplashScreen>
 
   Future<void> _loadAppData() async {
     // Simulate data loading with progress updates
-    setState(() => _loadingText = 'Loading medicines...');
+    if (mounted) setState(() => _loadingText = 'Loading medicines...');
     await Future.delayed(const Duration(milliseconds: 800));
     
-    setState(() => _loadingText = 'Setting up notifications...');
+    if (mounted) setState(() => _loadingText = 'Setting up notifications...');
     await Future.delayed(const Duration(milliseconds: 600));
     
-    setState(() => _loadingText = 'Preparing your dashboard...');
+    if (mounted) setState(() => _loadingText = 'Preparing your dashboard...');
     await Future.delayed(const Duration(milliseconds: 700));
     
     // Initialize default language if not set
-    final settingsProvider = Provider.of<SettingsProvider>(context, listen: false);
+    if (mounted) {
+      // Provider will be used for future language switching functionality
+      Provider.of<SettingsProvider>(context, listen: false);
+    }
     
-    setState(() => _loadingText = 'Almost ready...');
+    if (mounted) setState(() => _loadingText = 'Almost ready...');
     await Future.delayed(const Duration(milliseconds: 500));
     
-    setState(() {
-      _dataLoaded = true;
-      _loadingText = 'Welcome to Medi Time!';
-    });
+    if (mounted) {
+      setState(() {
+        _dataLoaded = true;
+        _loadingText = 'Welcome to Medi Time!';
+      });
+    }
 
     // Navigate after data is loaded
     Timer(const Duration(milliseconds: 800), () {

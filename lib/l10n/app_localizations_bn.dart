@@ -125,7 +125,7 @@ class AppLocalizationsBn extends AppLocalizations {
   String get dashboard => 'হোম';
 
   @override
-  String get medicines => 'ওষুধ';
+  String get medicines => 'ওষুধসমূহ';
 
   @override
   String get water => 'জল';
@@ -722,4 +722,16 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get goalAchieved => 'টার্গেট পূরণ!';
+
+  @override
+  String get nextDosesDue => 'পরবর্তী ডোজ';
+
+  @override
+  String get allCaughtUp => 'সব ঠিক আছে!';
+
+  @override
+  String get medicine => 'ওষুধ';
+
+  @override
+  String get medicineSkipped => 'ওষুধ ছাড়া হয়েছে';
 }

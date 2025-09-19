@@ -282,5 +282,11 @@
   
   "ofTarget": "of",
   "percentOfDailyGoal": "% of daily goal",
-  "goalAchieved": "Goal achieved!"
+  "goalAchieved": "Goal achieved!",
+  "nextDosesDue": "Next doses due",
+  "allCaughtUp": "You're all caught up!",
+  "medicine": "medicine",
+  "medicines": "medicines",
+  "medicineSkipped": "Medicine skipped",
+  "medicineMarkedTaken": "Medicine marked as taken"
 }
